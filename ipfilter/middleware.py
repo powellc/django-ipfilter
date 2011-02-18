@@ -31,7 +31,7 @@ class FilterIPs(object):
 
         logger.debug(excluded_ips)
         
-        request.excluded_ip = lambda: is_ip_in_nets(ip, excluded_ips)
+        request.excluded_ip = lambda: is_ip_in_nets(request_ip, excluded_ips)
         if request.excluded_ip:
                 excluded_ip_found.send(sender=request, ip=request_ip)
 
