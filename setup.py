@@ -15,7 +15,7 @@ else:
 setup(
     name = "django-ipfilter",
     version = version,
-    description = "A django application to filter ip addresses in views."
+    description = "A django application to filter ip addresses in views.",
     author = "Colin Powell",
     author_email = "colin@onecardinal.com",
     url = "http://github.com/powellc/django-iptables/",
