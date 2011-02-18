@@ -10,7 +10,6 @@ class ExcludedIP(models.Model):
     def __unicode__(self):
         return self.title
     
-    @property
     def get_network(self):
         return ipcalc.Network(self.network)
     
