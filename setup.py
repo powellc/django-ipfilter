@@ -25,6 +25,7 @@ setup(
             'models.py',
             'middleware.py',
             'signals.py',
+            'admin.py',
         ]
     },
     zip_safe = True,
