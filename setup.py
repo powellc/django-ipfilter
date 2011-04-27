@@ -18,10 +18,10 @@ setup(
     description = "A django application to filter ip addresses in views.",
     author = "Colin Powell",
     author_email = "colin@onecardinal.com",
-    url = "http://github.com/powellc/django-iptables/",
+    url = "http://github.com/powellc/django-ipfilter/",
     packages = find_packages(),
     package_data = {
-        'iptables': [
+        'ipfilter': [
             'models.py',
             'middleware.py',
             'signals.py',
